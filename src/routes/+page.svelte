@@ -1,5 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<h1 class="text-3xl font-bold underline">
-  Hello world!
-</h1>
+<script lang="ts">
+
+import Banner from "../components/Banner.svelte";
+import TroubleshootCard from "../components/TroubleshootCard.svelte";
+</script>
+
+<div class="flex flex-col gap-y-8 min-h-screen w-screen bg-backgroundColor">
+  <Banner />
+  <TroubleshootCard />
+</div>
